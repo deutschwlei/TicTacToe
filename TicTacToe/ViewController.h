@@ -10,4 +10,7 @@
 
 @interface ViewController : UIViewController
 
+@property (nonatomic, weak) IBOutlet UIButton *startGameBtn;
+@property (nonatomic, weak) IBOutlet UIButton *startGameSmallBtn;
+
 @end
